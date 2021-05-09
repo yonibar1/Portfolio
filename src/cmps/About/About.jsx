@@ -25,7 +25,7 @@ export class About extends Component {
                     <img src={Profile} alt="" />
                     <div>
                         <h2>ABOUT ME</h2>
-                        <p>My name is Yoni Bar, I live in Kfar Tavor And im 22 years old.<br />A Frontend / Full-Stack Web Developer with experience in writing single-page applications using the latest WEB technologies (Vue.js,React,Angular,Redux,Node.js,etc..) <br /> Graduate of the Coding Academy - 640 hours of an intentsive coding bootcamp that qualifies Full-Stack developers.</p>
+                        <p>My name is Yoni Bar, I live in Kfar Tavor And im 22 years old.<br /> While i'm not coding you will probably see me playing soccer or drinking a cold beer.<br />A Frontend / Full-Stack Web Developer with experience in writing single-page applications <br /> using the latest WEB technologies (Vue.js,React,Angular,Redux,Node.js,etc..) Graduate of the Coding Academy <br /> - 640 hours of an intentsive coding bootcamp that qualifies Full-Stack developers.</p>
                     </div>
                 </div>
                 <div className="tech-skills">
