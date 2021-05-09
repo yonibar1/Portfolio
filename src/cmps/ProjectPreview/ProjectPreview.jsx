@@ -28,6 +28,7 @@ const useStyles = makeStyles({
         height: 420,
         display: 'flex',
         flexDirection: 'column',
+        marginBottom: 60
     },
     content: {
         flex: 1
