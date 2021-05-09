@@ -129,6 +129,9 @@
                 flex-direction: column-reverse;
                 form{
                     width: 100%;
+                    button{
+                        align-self: center;
+                    }
                 }
                 .my-details{    
                     align-items: center;

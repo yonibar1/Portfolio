@@ -1,4 +1,3 @@
-// import { httpService } from './http.service'
 export default {
     getProjects,
     getProjectById,
@@ -17,7 +16,7 @@ const gProjects = [
         id: _makeId(),
         title: 'MrBitcoin',
         createdAt: '04/04/2021',
-        link: 'https://getour.herokuapp.com/#/',
+        link: 'https://mrbitcoinapp.herokuapp.com/#/',
         description: 'MrBitcoin is an app where you can manage your own digital wallet. written with the latest technologies such as React.js,Redux,Scss,Node.js,Express And MongoDB.',
         imgURL: 'https://res.cloudinary.com/yonibar/image/upload/v1620034780/Screen_Shot_2021-05-03_at_12.37.01_mk0my2.png'
     }

@@ -5,9 +5,6 @@ import ProjectPreview from '../ProjectPreview/ProjectPreview'
 import './ProjectList.scss'
 
 export class ProjectList extends Component {
-    componentDidMount() {
-        console.log(this.props.projects);
-    }
     render() {
         const { projects } = this.props
         return (
