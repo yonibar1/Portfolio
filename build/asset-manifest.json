@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/static/css/main.abe145d4.chunk.css",
+    "main.css": "/static/css/main.641cedde.chunk.css",
     "main.js": "/static/js/main.d6e3d2ec.chunk.js",
     "main.js.map": "/static/js/main.d6e3d2ec.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.b7cd3ddf.js",
@@ -12,13 +12,12 @@
     "static/js/3.808e9a0d.chunk.js.map": "/static/js/3.808e9a0d.chunk.js.map",
     "index.html": "/index.html",
     "static/css/2.97503911.chunk.css.map": "/static/css/2.97503911.chunk.css.map",
-    "static/css/main.abe145d4.chunk.css.map": "/static/css/main.abe145d4.chunk.css.map",
+    "static/css/main.641cedde.chunk.css.map": "/static/css/main.641cedde.chunk.css.map",
     "static/js/2.0eae74ab.chunk.js.LICENSE.txt": "/static/js/2.0eae74ab.chunk.js.LICENSE.txt",
     "static/media/ProjectList.scss": "/static/media/Merienda-Regular.650d7290.ttf",
     "static/media/angular.844d225a.svg": "/static/media/angular.844d225a.svg",
     "static/media/css.b3c0acbf.svg": "/static/media/css.b3c0acbf.svg",
     "static/media/github.0f101c29.svg": "/static/media/github.0f101c29.svg",
-    "static/media/Greet.scss": "/static/media/hero.4f564c4f.jpg",
     "static/media/html.8c11e1a8.svg": "/static/media/html.8c11e1a8.svg",
     "static/media/js.b13c588f.svg": "/static/media/js.b13c588f.svg",
     "static/media/linkedin.c98e15f1.svg": "/static/media/linkedin.c98e15f1.svg",
@@ -34,7 +33,7 @@
     "static/js/runtime-main.b7cd3ddf.js",
     "static/css/2.97503911.chunk.css",
     "static/js/2.0eae74ab.chunk.js",
-    "static/css/main.abe145d4.chunk.css",
+    "static/css/main.641cedde.chunk.css",
     "static/js/main.d6e3d2ec.chunk.js"
   ]
 }
