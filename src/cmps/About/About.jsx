@@ -1,5 +1,5 @@
 import { Component } from 'react'
-import Profile from '../../assets/img/profile.png'
+import Profile from '../../assets/img/Profile.jpg'
 import html from '../../assets/img/icons/html.svg'
 import css from '../../assets/img/icons/css.svg'
 import js from '../../assets/img/icons/js.svg'

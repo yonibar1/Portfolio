@@ -4,6 +4,15 @@ import $ from 'jquery';
 import './Greet.scss'
 
 export class Greet extends Component {
+    state = {
+        btnClass: ''
+    }
+    componentDidMount() {
+        setTimeout(() => {
+            this.setState({ btnClass: 'show' })
+        }, 2000)
+    }
+
     goTo(id) {
         $([document.documentElement, document.body]).animate({
             scrollTop: $(`#${id}`).offset().top
@@ -16,7 +25,7 @@ export class Greet extends Component {
                     <div className="greet">
                         <h1>Yoni Bar</h1>
                         <p>Full Stack Web Developer</p>
-                        <button onClick={() => this.goTo('about')}>Read More</button>
+                        <button id="readmore-btn" className={this.state.btnClass} onClick={() => this.goTo('about')}>Read More</button>
                     </div>
                 </div>
             </div>
