@@ -25,7 +25,10 @@ export class About extends Component {
                     <img src={Profile} alt="" />
                     <div>
                         <h2>ABOUT ME</h2>
-                        <p>My name is Yoni Bar, I live in Kfar Tavor And im 22 years old.<br />A Frontend / Full-Stack Web Developer with experience in writing single-page applications <br /> using the latest WEB technologies (Vue.js,React,Angular,Redux,Node.js,etc..) Graduate of the Coding Academy <br /> - 640 hours of an intentsive coding bootcamp that qualifies Full-Stack developers.</p>
+                        <p>My name is Yoni Bar, I live in Kfar Tavor And im 24 years old.
+                            <br />A Frontend / Full-Stack Web Developer with experience in writing single-page applications <br />
+                            using the latest WEB technologies (Vue.js,React,Angular,Redux,Node.js,etc..) Graduate of the Coding Academy <br />
+                            - 640 hours of an intentsive coding bootcamp that qualifies Full-Stack developers.</p>
                     </div>
                 </div>
                 <div className="tech-skills">
@@ -35,10 +38,6 @@ export class About extends Component {
                             <img key={idx} src={imgSrc} alt="" />
                         ))}
                     </div>
-                    {/* <div className="summary">
-                        <h2>Summary</h2>
-                        <p></p>
-                    </div> */}
                 </div>
             </div>
         )

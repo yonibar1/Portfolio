@@ -1,43 +1,47 @@
 @import '../../assets/styles/setup/variables';
 @import '../../assets/styles/setup/typography';
+
 #contact {
-    padding:$main-padding;
+    padding: $main-padding;
     padding-top: 3rem;
     padding-bottom: 3rem;
     background-color: $main-dark;
-    color:$main-white;
+    color: $main-white;
     text-align: center;
     display: flex;
     width: 100%;
     justify-content: space-between;
     flex-direction: column;
-    h1{
+
+    h1 {
         text-transform: uppercase;
         font-weight: bold;
-        margin-bottom:40px;
+        margin-bottom: 40px;
     }
-    .contact-content{
+
+    .contact-content {
         display: flex;
         width: 100%;
-        >*{
-            flex-basis: 50%;
-        }
 
-        h1{
+        h1 {
             text-transform: uppercase;
             font-weight: normal;
         }
-        p{
+
+        p {
             text-align-last: left;
         }
-        form{
+
+        form {
             display: flex;
             flex-direction: column;
             align-self: flex-start;
             width: 40%;
-            label{
+
+            label {
                 color: $main-white;
             }
+
             input:-webkit-autofill,
             input:-webkit-autofill:hover,
             input:-webkit-autofill:focus,
@@ -45,14 +49,16 @@
                 transition: background-color 5000s ease-in-out 0s, color 5000s ease-in-out 0s;
                 transition-delay: background-color 5000s, color 5000s;
             }
-            input{
-                &.MuiInputBase-input MuiOutlinedInput-input{
+
+            input {
+                &.MuiInputBase-input MuiOutlinedInput-input {
                     background-color: transparent !important;
                 }
             }
-            button{
+
+            button {
                 background-color: transparent;
-                padding:10px 14px;
+                padding: 10px 14px;
                 cursor: pointer;
                 outline: none;
                 border: 1px solid $main-white;
@@ -62,87 +68,108 @@
                 border-radius: 10px;
                 transition: .3s;
                 font-weight: bold;
-                &:hover{
+
+                &:hover {
                     background-color: $main-white;
                     color: $main-dark;
 
                 }
             }
-            #outlined-basic{
+
+            #outlined-basic {
                 background-color: transparent;
                 box-shadow: 0 0 1px 0 $main-white;
                 color: white;
                 border-radius: 4px;
             }
-            >*:not(:last-child){
+
+            >*:not(:last-child) {
                 margin-bottom: 20px;
             }
         }
-        .my-details{
+
+        .my-details {
+            width: 100%;
             display: flex;
             flex-direction: column;
             text-align: left;
-            align-items: flex-start;
-            h1{
-                text-transform:none;
+            align-items: center;
+
+            h1 {
+                text-transform: none;
                 margin-bottom: 15px;
             }
-            h2{
+
+            h2 {
                 margin-bottom: 10px;
             }
-            h4{
+
+            h4 {
                 margin-bottom: 8px;
             }
-            p{
+
+            p {
                 margin-bottom: 6px;
             }
-            a{
+
+            a {
                 text-decoration: underline;
                 color: $main-white;
                 margin-bottom: 6px;
             }
-            .icons-container{
+
+            .icons-container {
                 display: flex;
                 width: 100%;
-                align-items:center;
-                &>*{
+                align-items: center;
+                justify-content: center;
+
+                &>* {
                     width: 40px;
                     height: 40px;
                     fill: white;
                     filter: invert(65%) sepia(93%) saturate(0%) hue-rotate(87deg) brightness(100%) contrast(119%);
                     cursor: pointer;
-                    &:not(:last-child){
-                        margin-right:10px;
+
+                    &:not(:last-child) {
+                        margin-right: 10px;
                     }
-                    &.facebook{
-                    width: 30px;
-                    height: 30px;
+
+                    &.facebook {
+                        width: 30px;
+                        height: 30px;
                     }
                 }
             }
         }
     }
-    }
-    @media (max-width:800px) {
-        #contact{
-            padding:4rem 1rem;
-            .contact-content{
-                flex-direction: column-reverse;
-                form{
-                    width: 100%;
-                    button{
-                        align-self: center;
-                    }
+}
+
+@media (max-width:800px) {
+    #contact {
+        padding: 4rem 1rem;
+
+        .contact-content {
+            flex-direction: column-reverse;
+
+            form {
+                width: 100%;
+
+                button {
+                    align-self: center;
                 }
-                .my-details{    
+            }
+
+            .my-details {
+                align-items: center;
+
+                .icons-container {
+                    display: flex;
                     align-items: center;
-                    .icons-container{
-                        display: flex;
-                        align-items: center;
-                        justify-content: center;
-                        padding-top:20px;
-                    }
+                    justify-content: center;
+                    padding-top: 20px;
                 }
             }
         }
     }
+}
